@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "beepgenerator"
+version = "0.1.0"
+description = "A collection of generative music tools and scripts"
+authors = ["Lia Nemeth"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+PyAudio = "^0.2.11"
+numpy = "^1.22.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
